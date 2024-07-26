@@ -1,0 +1,7 @@
+.bodyChar{
+    width: 100%;
+    height: calc( 100dvh - 70px );
+    background-color: #0D0D0D;
+    display: flex;
+    padding: 12px 10px;
+}
