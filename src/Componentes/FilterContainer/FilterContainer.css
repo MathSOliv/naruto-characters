@@ -1,0 +1,69 @@
+.filterContainer{
+    width: 320px;
+    height: 100%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.filterContainer::-webkit-scrollbar{
+    display: none;
+}
+.main-logo{
+    width: 35%;
+    margin: 10px auto 0 auto;
+}
+.container-name-filter{
+    width: 90%;
+    display: flex;
+    margin: 15px auto;
+}
+.container-name-filter input{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 8px;
+}
+.containerVillages, .containerClans{
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 250px;
+    color: #FF8E2B;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+.villages-title, .clans-title{
+    margin: 15px auto;
+}
+.villages-opt, .clans-opt{
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+.villages-opt::-webkit-scrollbar, .clans-opt::-webkit-scrollbar{
+    display: none;
+}
+.village-check, .clan-check{
+    width: 100%;
+    margin: 1px 0;
+    display: flex;
+    align-items: center;
+    padding: 3px 0;
+}
+.village-check input[type="checkbox"], .clan-check input[type="checkbox"]{
+    width: 17px;
+    height: 17px;
+    margin: 0 5px 0 3px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.village-check label, .clan-check label{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}

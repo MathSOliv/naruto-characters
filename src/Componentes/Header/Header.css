@@ -10,3 +10,7 @@
     margin: auto;
     font-size: 17px;
 }
+.header img{
+    height: 60%;
+    margin: auto 0 auto 15px;
+}
